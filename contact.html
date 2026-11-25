@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact - Ramaru Project Solution</title>
+<style>
+  body { margin:0; font-family: Arial; background:white; color:#333; }
+  .top { display:flex; justify-content:space-between; align-items:center; padding:10px 60px; }
+  .top img { width:220px; }
+  .top a { text-decoration:none; color:#555; margin-left:40px; font-size:14px; }
+  .top a.active { color:#b03060; }
+  .yellow-bar { background:#c5c400; color:white; text-align:center; padding:18px; font-size:26px; }
+  .map-box { background:#e8e8e8; padding:30px 20px; display:flex; justify-content:center; }
+  .address-card { background:white; display:flex; align-items:center; gap:25px; padding:25px 35px; max-width:750px; width:100%; text-align:left; }
+ .pin { width:55px; height:55px; background:#c0392b; border-radius:50% 50% 50% 0; transform:rotate(-45deg); display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.pin span { width:22px; height:22px; background:white; border-radius:50%; }
+  .address-card h2 { color:#a63a50; margin:0; font-size:20px; line-height:1.4; }
+  .address-card p { margin:5px 0 0 0; font-size:14px; }
+  .form-wrap { max-width:650px; margin:40px auto; padding:0 20px; }
+  .form-wrap h2 { color:#a63a50; font-size:20px; }
+  .form-wrap input, .form-wrap textarea { width:100%; padding:12px; margin-bottom:10px; border:1px solid #ccc; box-sizing:border-box; font-size:14px; }
+  .form-wrap textarea { height:120px; }
+  .form-wrap button { padding:10px 30px; background:#333; color:white; border:none; }
+  .footer { background:#333; color:white; text-align:center; padding:20px; font-size:13px; }
+</style>
+</head>
+<body>
+
+<div class="top">
+  <img src="images/logo.jpg">
+  <div>
+    <a href="index.html">HOME</a>
+    <a href="about.html">ABOUT</a>
+    <a href="blog.html">BLOG</a>
+    <a href="contact.html" class="active">CONTACT</a>
+  </div>
+</div>
+
+<div class="yellow-bar">CONTACT</div>
+
+<div class="map-box">
+  <div class="address-card">
+    <div class="pin"><span></span></div>
+    <div>
+      <h2>HOUSE NO: B0064, PREEZBURG VILLAGE,<br>REBONE 0617</h2>
+      <p>Call us 066 454 9815 / email: karabomaria19@gmail.com</p>
+    </div>
+  </div>
+</div>
+
+<div class="form-wrap">
+  <h2>INQUIRY FORM</h2>
+  <form>
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <input type="text" placeholder="Subject">
+    <textarea placeholder="Share your thoughts"></textarea><br>
+    <button type="submit">Send</button>
+  </form>
+</div>
+
+<div class="footer">
+  <p>© 2026 Karabo's Decor and Events Management. All Rights Reserved.</p>
+</div>
+
+</body>
+</html>
