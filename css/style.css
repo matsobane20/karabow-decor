@@ -436,3 +436,19 @@ body { overflow-x: hidden; }
   #header .logo img { width: 180px !important; max-width: 85% !important; min-width: 0 !important; }
   #header a, #header nav a, #header ul li a { font-size: 16px !important; }
 }
+/* FINAL PHONE FIX */
+#header { flex-direction: column !important; align-items: center !important; text-align: center !important; height: auto !important; }
+#header .logo img, #header img { width: 200px !important; max-width: 90% !important; height: auto !important; }
+#header nav, #header .nav { width: 100% !important; justify-content: center !important; }
+/* UNIVERSAL HEADER FIX - WORKS FOR ANY NAME */
+header, .header, #header, .site-header, div.header {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+@media (max-width: 768px) {
+  header img, .header img, #header img, .site-header img, .logo img, #header .logo img {
+    width: 200px !important; max-width: 90% !important; min-width: 0 !important; height: auto !important;
+  }
+}
