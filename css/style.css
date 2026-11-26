@@ -430,3 +430,9 @@ body { overflow-x: hidden; }
   h1, h2 { font-size: 26px !important; text-align: center !important; }
   p { text-align: center !important; font-size: 16px !important; }
 }
+/* --- BEAT THE BIG LOGO ON PHONE --- */
+@media (max-width: 768px) {
+  #header { flex-direction: column !important; align-items: center !important; }
+  #header .logo img { width: 180px !important; max-width: 85% !important; min-width: 0 !important; }
+  #header a, #header nav a, #header ul li a { font-size: 16px !important; }
+}
